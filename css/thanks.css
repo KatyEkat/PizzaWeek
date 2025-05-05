@@ -1,0 +1,42 @@
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	background: #fff3e0;
+	font-family: "Inter", sans-serif;
+	text-align: center;
+	padding: 2rem;
+}
+.thanks-box {
+	background: white;
+	border-radius: 1rem;
+	padding: 3rem;
+	max-width: 600px;
+	box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+.thanks-box h1 {
+	font-family: "Playfair Display", serif;
+	font-size: 2rem;
+	color: #bf360c;
+	margin-bottom: 1rem;
+}
+.thanks-box p {
+	color: #4e342e;
+	font-size: 1.1rem;
+	line-height: 1.6;
+}
+.thanks-box a {
+	display: inline-block;
+	margin-top: 2rem;
+	background: #ff7043;
+	color: white;
+	text-decoration: none;
+	padding: 0.75rem 1.5rem;
+	border-radius: 0.5rem;
+	font-weight: bold;
+	transition: background 0.3s;
+}
+.thanks-box a:hover {
+	background: #e64a19;
+}

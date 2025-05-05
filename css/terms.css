@@ -1,0 +1,64 @@
+#terms {
+	background: #fff3e0;
+	border-top: 5px solid #ff7043;
+	border-bottom: 5px solid #ff7043;
+	padding: 4rem 2rem;
+	margin-top: 4rem;
+	border-radius: 1rem;
+}
+
+#terms h3 {
+	font-family: "Playfair Display", serif;
+	font-size: 2rem;
+	color: #bf360c;
+	margin-bottom: 1.5rem;
+}
+
+#terms p {
+	color: #3e2c1c;
+	font-size: 1rem;
+	line-height: 1.6;
+	margin-bottom: 1rem;
+}
+
+#terms ul {
+	margin-top: 1rem;
+	margin-bottom: 2rem;
+	padding-left: 1.5rem;
+}
+
+#terms li {
+	margin-bottom: 0.8rem;
+	font-size: 1rem;
+	color: #5d4037;
+}
+
+#terms a:hover {
+	color: #ff5722;
+	text-decoration: none;
+}
+
+.back-button {
+	display: inline-block;
+	margin-top: 20px;
+	padding: 10px 20px;
+	background-color: #0066cc;
+	color: white;
+	text-align: center;
+	border-radius: 5px;
+	text-decoration: none;
+	font-weight: bold;
+}
+.back-button:hover {
+	background-color: #0055aa;
+	text-decoration: none;
+}
+
+#terms .terms-list {
+	padding-left: 1.2rem;
+	list-style: disc;
+}
+
+#terms .terms-contact {
+	margin-top: 2rem;
+}

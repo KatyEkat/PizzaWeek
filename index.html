@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta
+			name="description"
+			content="PizzaWeek – where every week is a pizza celebration! Discover our story, explore signature menus, and connect with your favorite neighborhood pizzeria."
+		/>
+		<title>PizzaWeek</title>
+		<link
+			rel="stylesheet"
+			href="fonts/Inter/Inter-Italic-VariableFont_opsz,wght.ttf"
+		/>
+		<link
+			rel="stylesheet"
+			href="fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf"
+		/>
+		<link rel="stylesheet" href="css/styles.css" />
+		<link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+	</head>
+	<body>
+		<header>
+			<a class="header-logo" href="index.html">PizzaWeek</a>
+			<nav>
+				<a href="index.html">Home</a>
+				<a href="menu.html">Menu</a>
+				<a href="aboutus.html">About</a>
+				<a href="reviews.html">Reviews</a>
+				<a href="contact.html">Contact</a>
+				<a href="blog.html">Blog</a>
+			</nav>
+		</header>
+
+		<main class="main home-hero">
+			<img src="images/mainPageBgr.jpeg" alt="background" class="hero-bg-img">
+			<h1>Where Every Week is a Pizza Celebration!</h1>
+		</main>
+
+		<section class="section" id="menu">
+			<h3>Menu Highlights</h3>
+			<p>
+				From classic Margherita to daring Tandoori Paneer, every slice tells a
+				story. Our menu is crafted with fresh ingredients and bold flavors to
+				delight every pizza lover in India. Explore weekly specials and seasonal
+				surprises!
+			</p>
+			<div class="image-grid">
+				<div class="menu-highlight-card">
+					<img
+						class="best-sellers-pizza"
+						src="images/chicken.png"
+						alt="Pizza 1"
+					/>
+					<a href="menu.html" class="order-btn">Order Now</a>
+				</div>
+				<div class="menu-highlight-card">
+					<img
+						class="best-sellers-pizza"
+						src="images/margarita.png"
+						alt="Pizza 2"
+					/>
+					<a href="menu.html" class="order-btn">Order Now</a>
+				</div>
+				<div class="menu-highlight-card">
+					<img
+						class="best-sellers-pizza"
+						src="images/Peperoni.png"
+						alt="Pizza 3"
+					/>
+					<a href="menu.html" class="order-btn">Order Now</a>
+				</div>
+			</div>
+		</section>
+
+		<section class="section" id="story">
+			<h3>Our Story</h3>
+			<p>
+				PizzaWeek was born from a dream to bring the spirit of Italian passion
+				to Indian tastebuds. We began in a cozy Bengaluru kitchen and now serve
+				joy by the slice across the city. It’s not just pizza — it's a weekly
+				ritual of flavor, family, and fun.
+			</p>
+			<div class="image-grid">
+				<img src="images/pizzeria.jpeg" alt="History" />
+			</div>
+		</section>
+
+		<section class="section" id="gallery">
+			<h3>Pizza Moments</h3>
+			<div class="image-grid">
+				<div class="pizza-moment-card">
+					<img class="pizza-menu" src="images/pizza.png" alt="Pizza" />
+					<a href="menu.html" class="order-btn">Order Now</a>
+				</div>
+				<div class="pizza-moment-card">
+					<img class="pizza-menu" src="images/pizzaMushrooms.png" alt="Pizza" />
+					<a href="menu.html" class="order-btn">Order Now</a>
+				</div>
+				<div class="pizza-moment-card">
+					<img class="pizza-menu" src="images/pizzaPepper.png" alt="Pizza" />
+					<a href="menu.html" class="order-btn">Order Now</a>
+				</div>
+				<div class="pizza-moment-card">
+					<img class="pizza-menu" src="images/peperoniPizzaMenu.png" alt="Pizza" />
+					<a href="menu.html" class="order-btn">Order Now</a>
+				</div>
+			</div>
+		</section>
+
+		<section class="section" id="experience">
+			<h3>The Pizza Experience</h3>
+			<p>
+				At PizzaWeek, dining is not just about food — it's about the experience.
+				Our cozy interiors, friendly staff, and delightful aromas create a space
+				where families, friends, and pizza lovers gather for moments that
+				matter. From our hand-stretched dough to the last cheesy bite, we make
+				sure each visit is unforgettable.
+			</p>
+			<div class="image-grid">
+				<img class="pizza-menu" src="images/familyDinner.jpg" alt="Dine-in" />
+				<img
+					class="pizza-menu"
+					src="images/bakingPizza.png"
+					alt="Pizza baking"
+				/>
+			</div>
+		</section>
+
+		<section class="section" id="faq">
+			<h3>Frequently Asked Questions</h3>
+			<ul>
+				<li>
+					<strong>Do you offer vegan pizzas?</strong> Yes! Ask for our vegan
+					cheese and veggie options.
+				</li>
+				<li>
+					<strong>Do you deliver?</strong> Absolutely — we deliver within 10km
+					radius of any of our outlets.
+				</li>
+				<li>
+					<strong>What payment methods do you accept?</strong> We accept cash,
+					UPI, credit/debit cards and major wallets.
+				</li>
+			</ul>
+		</section>
+
+		<section class="section form-section" id="contact">
+			<h3>Contact Us</h3>
+			<form action="thanks_form.php" method="post">
+				<input type="text" name="name" placeholder="Your Name" required />
+				<input type="email" name="email" placeholder="Your Email" required />
+				<textarea
+					name="message"
+					rows="5"
+					placeholder="Your Message"
+					required
+				></textarea>
+				<label>
+					<input type="checkbox" name="privacy" value="on" required />
+					I agree to the
+					<a href="privacy-policy.html" target="_blank"> Privacy Policy </a>
+				</label>
+				<button type="submit">Send Message</button>
+			</form>
+		</section>
+
+		<footer>
+			<div class="footer-contacts">
+				<a href="tel:+919124462843">+91 91244 62843</a>
+				<p class="footer-line">|</p>
+				<a href="mailto:pizzaWeek@gmail.com">pizzaWeek@gmail.com</a>
+				<p class="footer-line">|</p>
+				<p>
+					<a href="https://maps.app.goo.gl/tVL9f4VHpCsZ3Awj8"
+					   target="_blank"
+					   rel="noopener noreferrer">
+						Shop No.35 A, LIG 25, in front of Gurudwara Complex, ward 43,
+						Old Subhash Nagar Colony, Old Subhash Nagar, Bhopal, Madhya Pradesh
+						462023, India
+					</a>
+				</p>
+			</div>
+			<p>
+				<a href="privacy-policy.html">Privacy Policy</a> |
+				<a href="terms-conditions.html">Terms of Service</a>
+			</p>
+		</footer>
+	</body>
+</html>

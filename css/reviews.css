@@ -1,0 +1,143 @@
+.main h2 {
+	font-size: 2.5rem;
+	color: white;
+	background: rgba(0, 0, 0, 0.5);
+	padding: 1rem 2rem;
+	border-radius: 1rem;
+	text-align: center;
+	font-family: "Playfair Display", serif;
+}
+
+.reviews-grid {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 2rem;
+	justify-content: center;
+	margin-top: 2rem;
+}
+
+.review-card {
+	background: #fffaf4;
+	border-radius: 1rem;
+	padding: 2rem;
+	text-align: center;
+	width: 300px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	transition: transform 0.3s ease;
+}
+
+.review-card:hover {
+	transform: translateY(-5px);
+}
+
+.review-card img {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	object-fit: cover;
+	margin-bottom: 1rem;
+}
+
+.review-card h4 {
+	margin-bottom: 0.5rem;
+	color: #bf360c;
+	font-family: "Playfair Display", serif;
+}
+
+.review-card p {
+	font-size: 1rem;
+	color: #4e342e;
+}
+
+.leave-review form {
+	max-width: 600px;
+	margin: 2rem auto 0;
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
+
+.leave-review input,
+.leave-review textarea {
+	padding: 1rem;
+	border-radius: 0.5rem;
+	border: 1px solid #ddd;
+	font-family: "Inter", sans-serif;
+	font-size: 1rem;
+	background: #fff;
+	color: #3e2c1c;
+}
+
+.leave-review textarea {
+	resize: vertical;
+	min-height: 120px;
+}
+
+.leave-review label {
+	display: flex;
+	align-items: center;
+	font-size: 0.95rem;
+	color: #5d4037;
+}
+
+.leave-review input[type=\"checkbox\"] {
+	margin-right: 0.5rem;
+	accent-color: #ff7043;
+}
+
+.leave-review label a {
+	color: #d84315;
+	margin-left: 0.3rem;
+	text-decoration: underline;
+}
+
+.leave-review button {
+	background: #ff7043;
+	color: white;
+	font-weight: bold;
+	padding: 1rem;
+	border-radius: 0.5rem;
+	border: none;
+	cursor: pointer;
+	transition: background 0.3s ease;
+}
+
+.leave-review button:hover {
+	background: #e64a19;
+}
+
+.reviews-hero {
+	position: relative;
+	max-height: 500px;
+	height: 70vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	overflow: hidden;
+}
+.reviews-bg-img {
+	position: absolute;
+	inset: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	z-index: 0;
+	pointer-events: none;
+}
+.reviews-hero h1 {
+	position: relative;
+	z-index: 1;
+	color: white;
+	background: rgba(0, 0, 0, 0.5);
+	padding: 1rem 2rem;
+	border-radius: 1rem;
+	font-family: "Playfair Display", serif;
+}
+
+@media screen and (max-width: 600px) {
+	.reviews-grid {
+		flex-direction: column;
+		align-items: center;
+	}
+}
